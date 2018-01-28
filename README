@@ -24,6 +24,7 @@ Enable the following settings in Config.h:
     #define STM32_USART1_HOST
     #define ENABLE_SCAN_MODE
     #define DUPLEX
+it work both DUPLEX or no DUPLEX mode,when in DUPLEX Mode Main RF is TX,Second RF is RX    
 Build the firmware:
 
     make
